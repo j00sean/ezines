@@ -1,0 +1,569 @@
+______             _                 _            _       _ _  __                _         _      
+| ___ \           | |               | |          ( )     | (_)/ _|              | |       | |     
+| |_/ /_   _  __ _| |__  _   _ _ __ | |_ ___ _ __|/ ___  | |_| |_ ___ ______ ___| |_ _   _| | ___ 
+| ___ \ | | |/ _` | '_ \| | | | '_ \| __/ _ \ '__| / __| | | |  _/ _ \______/ __| __| | | | |/ _ \
+| |_/ / |_| | (_| | | | | |_| | | | | ||  __/ |    \__ \ | | | ||  __/      \__ \ |_| |_| | |  __/
+\____/ \__,_|\__, |_| |_|\__,_|_| |_|\__\___|_|    |___/ |_|_|_| \___|      |___/\__|\__, |_|\___|
+              __/ |                                                                   __/ |       
+             |___/                                                                   |___/       
+
+            A DIY guide to become an alone long time bughunter for ordinary people.
+
+
+						        \\_V_//
+						        \/=|=\/
+						         [=v=]
+						       __\___/_____
+						      /..[  _____  ]
+						     /_  [ [  M /] ]
+						    /../.[ [ M /@] ]
+						   <-->[_[ [M /@/] ]
+						  /../ [.[ [ /@/ ] ]
+			     _________________]\ /__/  [_[ [/@/ C] ]
+			    <_________________>>0---]  [=\ \@/ C / /
+			       ___      ___   ]/000o   /__\ \ C / /
+				  \    /              /....\ \_/ /
+			       ....\||/....           [___/=\___/
+			      .    .  .    .          [...] [...]
+			     .      ..      .         [___/ \___]
+			     .    0 .. 0    .         <---> <--->
+			  /\/\.    .  .    ./\/\      [..]   [..]
+			 / / / .../|  |\... \ \ \    _[__]   [__]_
+			/ / /       \/       \ \ \  [____>   <____]
+
+
+                                        By j00sean.
+
+
+
+        /                 
+*//////{<>==========================[    CONTENIDOS     ]====================================->>
+        \
+
+
+
+====================================[      THE WAY      ]====================================
+====================================[    +FUN0PR0FIT    ]====================================
+====================================[    +FUN+PR0FIT    ]====================================
+====================================[       KC&TIE      ]====================================
+====================================[      EXAMPLES     ]====================================
+====================================[    $RECYCLE.BIN   ]====================================
+====================================[    PLAN & WIN     ]====================================
+====================================[       BREAKS      ]====================================
+====================================[        C0NS       ]====================================
+====================================[    HACK'EM IT!    ]====================================
+
+
+
+
+        /                 
+*//////{<>==========================[      THE WAY      ]====================================->>
+        \
+
+
+
+El camino comienza siendo humilde, sincero y honesto, respetuoso, silencioso como un ninja en 
+la oscuridad, no postureando, ganándote día tras día la credibilidad y la confianza de los 
+compañeros y empresas (esto es importante porque en infosec no eres nadie sin credibilidad y 
+confianza), ayudando a cualquiera todo lo que puedas, da igual que lo conozcas o no, a la vez 
+que cuidadoso porque no sabes las intenciones de los demás, también cauto con lo que dices, 
+date cuenta que trabajas con gente muy inteligente y puedes dar detalles que no debes, tratando 
+bien a las empresas (recuerda que están hechas por personas), "triagers" o PSIRTs con los que 
+trabajes, no seas impaciente dales tiempo, cuída tus modales, sé educado siempre. La 
+persistencia y la perseverancia también son muy importantes, no te rindas fácilmente. Y muchos 
+más valores que si no tienes, deberías empezar a cultivar. Todos hemos ido aprendiendo.
+
+La credibilidad y la confianza son factores muy pero que muy importantes, más de lo que piensas 
+al principio. El mundo infosec es muy cerrado, nadie se fía de nadie, ten cuidado con lo que 
+dices o haces. Nunca copies el trabajo de otro y mucho menos sus bugs, cita las fuentes siempre. 
+Eso aumentará tu credibilidad y la confianza que las personas puedan depositar en ti. No hables 
+de lo que no debes, ni conversaciones privadas, ni research conjunto, ni nada de eso sin el 
+consentimiento de todos los implicados. Y si por cualquier circunstancia te vieras empujado u 
+obligado, procura siempre omitir la información que implique a los demás, ni qué decir de los 
+datos personales. Debes ser una tumba. Si la gente te cuenta cosas, es porque confía en ti, no 
+rompas ese lazo de confianza, cuesta mucho ganarlo. Mucho de esto se puede aplicar a la vida 
+misma, pero en infosec = x^n.
+
+
+
+        /                 
+*//////{<>==========================[    +FUN0PR0FIT    ]====================================->>
+        \
+
+
+
+Mi opiníón es que empieces, como muchos hemos hecho, por el sector de la seguridad en 
+aplicaciones web, hoy en día se puede vivir de ello, busca aplicaciones web open source, al 
+principio da igual que sean muy usadas o poco, estudia su código fuente, busca bugs en ellas, 
+lee lo que se publica [1] y conviértete en otro bug reporter también. Haz esto durante un 
+tiempo, te ayudará a adquirir conocimientos y entender cómo funcionan. Si te planteas un CMS de 
+alto impacto como WordPress [2] o Joomla [3], primero mira en su lista de plugins, te resultará 
+más sencillo.
+
+Aprende del underground, tanto de habla inglesa [4], como hispana [5][6][7]. Aprende de
+los hackers de sombrero blanco, gris o negro. Sí, de los black/grey hat hackers también. 
+Aprende del pasado para aplicarlo en el presente y mejorar el futuro. Aprende de todos y no 
+dejes de hacerlo en ningun momento. Aprende de las phracks [8] y de las ezines [9].
+
+Aprende a hacer bug hunting de caja blanca, gris y negra [10]. También investigar lo que otros 
+están publicando, probar sus 0days [11] o Ndays [12]. Te servirá de ayuda, te aportará ideas 
+o descubrirás nuevos bugs. 
+
+Y cuando hayas adquirido conocimiento, da el salto al VDP (Vulnerability Disclosure Programs) 
+gestionado por terceros como hackerone [13], bugcrowd [14], intigrity [15], etc. O bien 
+gestionados por los mismos fabricantes como el de Microsoft [16], Google [17] o Mozilla [18]. 
+En estos últimos, es raro que no empieces a ganar dinero desde el principio.
+
+O bien, si no te sientes cómodo, da el salto a cualquier otro sector: aplicaciones de 
+escritorio, kernel, etc. Si eliges los gestionados por terceros, no tienes otra que ir tras 
+los programas públicos, te costará reportar en lo que todo el mundo ve, pero poco a poco 
+empezarás a recibir invitaciones a programas privados que es donde está la chicha.
+
+Reporta en programas por swags o créditos, es lo que hay, todos lo hemos hecho. Nadie llega y 
+se pone a ganar dinero como si tal cosa y el que diga lo contrario te miente, es cuestión de 
+tiempo. Los muchos que empezamos en esto hace tiempo, al principio ni siquiera nos daban swags 
+o créditos (en todo caso con amenazas de denuncia). Eso te ayuda a crecer, ganar credibilidad 
+y aprender. Por mucha experiencia que adquieras también los seguirás regalando en muchas 
+ocasiones.
+
+
+
+[1] https://www.exploit-db.com/
+[2] https://wordpress.com/
+[3] https://www.joomla.org/
+[4] https://socradar.io/top-5-underground-hacker-forums-that-are-accessible-via-your-web-
+    browsers-such-as-google-chrome-firefox-and-internet-explorer/
+[5] https://www.elhacker.net/
+[6] https://indetectables.net/index.php
+[7] https://crackslatinos.foroactivo.com/forum
+[8] http://www.phrack.org/
+[9] https://www.exploit-db.com/search?type=papers&platform=ezine
+[10] https://hacken.io/discover/white-grey-and-black-box-testing/
+[11] https://en.wikipedia.org/wiki/Zero-day_(computing)
+[12] https://www.lifars.com/2020/09/zero-day-and-n-day-exploits/
+[13] https://www.hackerone.com/
+[14] https://www.bugcrowd.com/
+[15] https://www.intigriti.com/
+[16] https://www.microsoft.com/en-us/msrc/bounty
+[17] https://bughunters.google.com/about/rules/6625378258649088/google-and-alphabet-
+     vulnerability-reward-program-vrp-rules
+[18] https://www.mozilla.org/en-US/security/bug-bounty/
+
+
+
+        /                 
+*//////{<>==========================[    +FUN+PR0FIT    ]====================================->>
+        \
+
+
+
+Conforme adquieras conocimiento y vayas reportando bugs, irás ganando experiencia. 
+
+Es hora de enfocar tu energía en un patrón de bug, una técnica o algo que no esté muy extendido, 
+una idea, un post abandonado, algo novedoso, cualquier cosa. Luego te mostraré ejemplos propios 
+de esto. Y estúdiala bien, mejórala, con el paso del tiempo tu olfato se acostumbrará a detectar 
+esto rápido, como cualquier cazador desarrollarás un instinto que te permitirá "oler la sangre", 
+lo tienes innato, todos venimos de cazadores desde la prehistoria. 
+
+No apliques esa idea en objetivos de mierda o programas que pagan basura ya que no te darán para 
+vivir, ve a por los grandes trofeos, así empieza realmente uno a ganarse la vida en esto. En un 
+gran objetivo, la fruta madura [19] está casi agotada, pero no del todo, de nuevo tienes que 
+centrarte en lo que nadie mira o corner cases [20][21][22], estudia lo que los que más reportan 
+están haciendo, aprende de los mejores [23]. Estudia bien el programa, las vulns, los informes 
+en el objetivo, pon tu ojo ahí que es donde está la chicha, pasa de la morralla. Si encuentras 
+una mina sin performar, encontrarás mucho oro [24]. ¡Eres como un buscador de tesoros! 
+
+Tu objetivo al principio debería ser ese, fruta madura pero en objetivos de alto impacto, todo 
+lo que te reporte > $500 (según donde vivas, claro). Y a la vez ir estudiando y buscando 
+CVSS > 7. Sé que puede resultar difícil al principio o desde fuera, pero no lo es tanto, 
+automatiza parte mediante fuzzing [25] y haz ingeniería inversa [26], revisión de código fuente, 
+testeo manual, etc. Esa es la manera. 
+
+Tienes que ir a por la fruta madura escondida porque debes entender que esto es como las 
+apuestas, si vas con todo al rojo y por cualquier circunstancia pierdes, es decir, lo parchean, 
+alguien lo publica, lo explota algun APT y se detecta, estarás jodido. Habrás perdido un pago 
+muy grande que te hubiera solucionado el año y al que le has dedicado mucho o muchísimo tiempo. 
+Es preferible tener muchos peces pequeños o de talla media, donde si pierdes uno te dará más o 
+menos igual, que tener pocos grandes, y que alguno se te muera. Esta cuestión me parece 
+importante, y me recuerda cuando Microsoft comenzó a implementar endurecimientos, técnicas 
+anti-exploiting y matar clases de bugs por completo como los use-after-free en Internet 
+Explorer con Delayed Free o Heap Isolation, allá por el 2014 [27] y algunos decían que eso era 
+mejor porque pagarían más por cada exploit. Sí, es cierto, los exploits de trabajo completo 
+(full-working exploits) aumentaron su precio considerablemente, pero se dio la circunstancia 
+que comento, se encontraban muy pocas vulns y las que aparecían se parcheaban rápido, con lo 
+cual a gente como nosotros no nos daba tiempo a sacar un beneficio por ellos. Eso está bien 
+para empresas con muchos bug hunters de talento, que tienen una base asegurada y pluses por 
+descubrimientos, pero no es lo nuestro. 
+
+De hecho esto me lleva a pensar en cómo hoy en día el bug hunting es toda una industria, con 
+gigantes como Google Project Zero [28], lleno de talento y de recursos. Pero no te agobies, 
+usa ese conocimiento, y aplica lo aquí expuesto.
+
+
+
+[19] https://www.softwaresecured.com/why-you-shouldnt-deal-with-low-hanging-fruit-before-a-
+     penetration-test/
+[20] https://en.wikipedia.org/wiki/Corner_case
+[21] https://twitter.com/K3vinLuSec/status/1656012350380711936 
+[22] https://research.checkpoint.com/2018/50-adobe-cves-in-50-days/
+[23] https://bugs.chromium.org/p/project-zero/issues/list
+[24] https://twitter.com/h0mbre_/status/1664653902103314432
+[25] https://en.wikipedia.org/wiki/Fuzzing
+[26] https://en.wikipedia.org/wiki/Reverse_engineering
+[27] https://securityintelligence.com/understanding-ies-new-exploit-mitigations-the-memory-
+     protector-and-the-isolated-heap/
+[28] https://googleprojectzero.blogspot.com/
+
+
+
+        /                 
+*//////{<>==========================[       KC&TIE      ]====================================->>
+        \
+
+
+
+Cuando por fin descubras algun bug bueno... Keep calm & take it easy (KC&TIE), calma tus 
+nervios, descubrir un 0day es como la droga o el sexo, es un subidón. Pero tienes que seguir 
+siendo paciente y estudiar bien el caso, no te anticipes, no des por hecho que es explotable, 
+prúebalo muchas veces en varios equipos. Comprueba versiones y SO afectados, si es una vuln 
+para una app de escritorio por ej. 
+
+Date cuenta que estás sólo ante esto, no tienes a nadie que te vaya a ayudar a verificarlo, te 
+puedes equivocar. No pienses que tienes la verdad absoluta por muchos 0days que descubras. 
+Cuando seas bueno en esto, incluso te irás a dormir como si tal cosa. 
+
+Estudia muy bien el caso, haz un buen write-up, un buen POC y/o exploit. Dedícale tiempo. 
+Aunque te paguen lo mismo, te servirá para el futuro. Intenta escalar la severidad, eso te dará 
+más dinero. Los devs repiten errores, busca ese patrón en otro lado, del mismo objetivo o de 
+otro [29][30]. Busca variantes [31][32]. De nuevo recuerda que tienes que oler la sangre. Si es 
+un bug de mierda en un programa de mierda, es probable que alguien también lo haya reportado o 
+que sea un informativo, por eso debes dejar de lado eso. Aunque también es cierto, que al 
+principio te puede ayudar empezar por ahí. Mientras estás en esta etapa, no te preocupes por 
+los pagos, tienes que centrarte en aprender y mejorar. No deberías tomártelo como un trabajo 
+sino por pasión.
+
+
+
+[29] https://ioactive.com/wp-content/uploads/2018/05/Advisory_Adobe_doc.export_arbitrary_
+     file_creation.pdf
+[30] https://github.com/j00sean/SecBugs/tree/main/CVEs/CVE-2023-27363
+[31] https://www.securityweek.com/google-half-2022s-zero-days-are-variants-previous-
+     vulnerabilities/
+[32] https://googleprojectzero.blogspot.com/2022/06/2022-0-day-in-wild-exploitationso-far.html
+
+
+
+        /                 
+*//////{<>==========================[      EXAMPLES     ]====================================->>
+        \
+
+
+
+Voy a exponer algunos ejemplos, para mostrar que no todo son conceptos sin pruebas. 
+
+
+
+======                   Caso 1: CVE-2022-44666: Lo viejo es nuevo                ======
+
+
+Este primer caso [33] fue un 0day abandonado y descubierto por John Page (aka 
+hyp3rlinx) [34], en el que trabajé por mejorarlo y encontrar un vector (protocol URL 
+LDAP) que hiciera que finalmente Microsoft lo tuviera en cuenta. Aunque siendo sincero 
+creo que el bug era suficiente severo como para solucionarlo en un primer momento. Se 
+podría encuadrar dentro de tomar algo abandonado y mejorarlo. 
+
+Era, y en realidad sigue siendo porque el parche no es completo, un 0day que se había 
+hecho público hacía más 4 años. Luego vino otra lucha que mantuvimos hyp3rlinx y yo para 
+que se le reconociera como el primer descubridor [35] de este bug.
+
+
+[33] https://github.com/j00sean/CVE-2022-44666
+[34] https://twitter.com/hyp3rlinx
+[35] https://twitter.com/hyp3rlinx/status/1623459884229328896
+
+
+======                 Caso 2: DogWalk aka CVE-2022-34713: Follina++              ======
+
+
+El caso de DogWalk o CVE-2022-34713 [36] tiene varias curiosidades, también se podría 
+encuadrar dentro de tomar un post abandonado [37], que contenía un 0day públicamente 
+liberado con más de 2 años de antigüedad. Fue descubierto por Imre Rad [38], quién hizo 
+un buen post al respecto [39]. Pero además ocurrió en tiempos de Follina o 
+CVE-2022-30190 [40][41]. 
+
+Lo más interesante fue que mientras la mayoría de researchers estaban ocupados con 
+Follina, yo me dediqué a buscar otros bugs en este objetivo (MSDT). Esa es la intención 
+de mostrar este ejemplo, cuando la mayoría esté con sus ojos en algo, párate a pensar y 
+mira a tu alrededor.
+
+También es interesante comentar y dar a conocer que reporté esto en Chromium, ya que 
+esos formatos de archivo (.diagcab, .diagcfg, etc) no estaba en la lista de bloqueo de 
+extensiones ejecutables [42], que por cierto fue recompesado y lo cual fue integramente 
+al descubridor original.
+
+
+[36] https://therecord.media/microsoft-confirms-dogwalk-zero-day-vulnerability-has-been-
+     exploited
+[37] https://twitter.com/j00sean/status/1531643635543990275
+[38] https://twitter.com/ImreRad
+[39] https://irsl.medium.com/the-trouble-with-microsofts-troubleshooters-6e32fc80b8bd
+[40] https://twitter.com/j00sean/status/1663991248149946369
+[41] https://therecord.media/hackers-using-follina-windows-zero-day-to-spread-qbot-
+     malware
+[42] https://bugs.chromium.org/p/chromium/issues/detail?id=1332392#c41
+
+
+======                         Caso 3: Fuzzing con Domato                         ======
+
+
+Después del verano de 2017, Ivan Fratric aka @ifsecure [43] liberó un fuzzer llamado 
+Domato públicamente [44][45], contenía una extensa gramática para hacer fuzzing del DOM 
+en navegadores. 
+
+Simplemente incluyendo un flag en chrome (--force-renderer-accessibility), obtuve 
+varios bugs en chromium [46][47]. Con un detalle tan simple y efectivo como ese. 
+
+Y aplicando técnicas similares otro par en Microsoft Edge [48][49][50].
+Sin utilizar nada nuevo u original.
+
+
+[43] https://twitter.com/ifsecure
+[44] https://googleprojectzero.blogspot.com/2017/09/the-great-dom-fuzz-off-of-2017.html
+[45] https://github.com/googleprojectzero/domato
+[46] https://bugs.chromium.org/p/chromium/issues/detail?id=793876
+[47] https://bugs.chromium.org/p/chromium/issues/detail?id=793871
+[48] https://www.zerodayinitiative.com/advisories/ZDI-18-373/
+[49] https://www.zerodayinitiative.com/advisories/ZDI-18-310/
+[50] https://twitter.com/j00sean/status/982216053508882433
+
+
+======                     Caso 4: Fuzzing + Domato + ActiveX                     ======
+
+
+Otra idea interesante un tiempo después del caso anterior (en torno a 2018) fue, usando 
+OleViewDotNet [51], de James Forshaw aka @tiraniddo [52] obtener métodos y propiedades 
+de los controles ActiveX que aún quedaban por aquellas fechas, como el de Adobe Acrobat 
+Reader o el de Foxit. Crear una gramática sencilla para Domato, y hacer fuzzing sobre 
+ello. En poco tiempo tenía un bug bastante bueno [53] y muchos otros tantos en 
+Adobe [54][55][56][57] como en Foxit [58]. Algo que tampoco requirió de una larga 
+implementación.
+
+Esto se puede enfocar dentro de lo que es un fuzzing enfocado.
+
+
+[51] https://github.com/tyranid/oleviewdotnet
+[52] https://twitter.com/tiraniddo
+[53] https://github.com/j00sean/SecBugs/tree/main/CVEs/CVE-2019-7040
+[54] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7040
+[55] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7812
+[56] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7790
+[57] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7791
+[58] https://www.foxit.com/support/security-bulletins.html
+
+
+
+======               Caso 5: Fuzzing fácil, simple y con fundamento               ======
+
+
+Tal y comentaba en un hilo de Twitter el año pasado [59], cosas tan simples como usar 
+diferentes cabeceras de compatibilidad de Internet Explorer, es decir: 
+
+<meta http-equiv="X-UA-Compatible" content="IE=7"> 
+
+Reportaba muchos bugs en el pasado, incluso resultaba útil para hacer funcionar 
+un bug de IE8 en IE11.
+
+
+[59] https://twitter.com/j00sean/status/1536629437197963265
+
+
+======                    Caso 6: Fuzzing: Back to the future!                    ======
+
+
+Este caso bastante antiguo [60] encontrado en torno a mediados 2011 es bastante 
+interesante. No por el bug en sí, sino por el contexto. Recuerdo que por esas fechas, se 
+filtró una versión de Windows 8 [61]. Y ya por entonces, tenía claro que había que 
+anticiparse al futuro. Así que con el fin de arreglar bugs en el núcleo principal de mis 
+fuzzers, tratar con el sandboxing y en definitiva tener todo listo para cuando saliera 
+la versión original, adapté mis fuzzers para esta versión de Windows. Y ya puestos, por 
+qué no dejarlos corriendo.
+
+Entonces apareció ese bug, y dado que no era una versión original, tuve según lo que se 
+llama en la jerga "sentarme en el bug" durante un buen tiempo. No recuerdo el tiempo 
+total que fue, pero sí que recuerdo haber tenido que hacer esto.
+
+
+[60] https://twitter.com/j00sean/status/1665081884525711360
+[61] https://www.engadget.com/2011-04-13-windows-8-leaked-caught-looking-a-lot-like-
+     windows-7.html
+
+
+
+Con estos ejemplos puedes ver que sencillamente partiendo de una idea y mejorándola, o 
+aplicando otro punto de vista, se pueden obtener 0days. Así de sencillo. No hay que ser
+ningun genio.
+
+
+
+        /                 
+*//////{<>==========================[    $RECYCLE.BIN   ]====================================->>
+        \
+
+
+
+
+No te frustres, aprende de tus errores y mejora con ellos. Yo mismo he fracasado muchas veces, 
+por ej. pasé mucho tiempo haciendo fuzzing en Office sin obtener grandes resultados [62][63] o 
+en Internet Explorer como comentaba anteriormente con lo de las mitigaciones [64]. 
+
+Eso nadie te lo cuenta, sólo hablan de lo bien que les va y de todo lo bueno que les pasa. 
+Fracasar es lógico y te permite no volver a cometer los mismos errores, si es que te das cuenta.
+ 
+Tendrás muchos malos momentos como bug hunter, en caso de que no seas un genio, claro. Para 
+esto mismo te vendrá bien lo que comento en el siguiente punto. 
+
+Aprende y mejora con ello. Cuando lleves mucho tiempo fracasando, reclícate, no te estanques, 
+perder mucho tiempo en algo que no te da nada es inútil, esto también será cuestión de olfato. 
+ 
+Reciclarse y estar aprendiendo técnicas nuevas constantemente es bueno, nuestro mundo cambia 
+rápido, más de lo normal, además es fácil estar en la cresta de la ola, pero no lo es tanto 
+cuando caes y te pegas el tortazo.
+
+
+[62] https://twitter.com/j00sean/status/785523130827694080
+[63] https://twitter.com/j00sean/status/798617028621799424
+[64] https://twitter.com/j00sean/status/1415595801980678152
+
+
+
+        /                 
+*//////{<>==========================[    PLAN & WIN     ]====================================->>
+        \
+
+
+
+Cuando hayas adquirido el suficiente conocimiento, empezarás a ganar dinero, al principio 
+despacio y luego con mayor velocidad. En este punto es cuando debes empezar a planificar tu plan 
+de viabilidad, depende de tu país necesitarás más o menos, pero si te quieres dedicar durante
+mucho tiempo, necesitas generar un buen "colchón" económico para fracasar con tranquilidad 
+mental. Si tienes familia o personas a tu cargo, es importante que planifiques bien esto y lo 
+incluyas en tu plan. Pero no como una obsesión, es decir, no te centres en ello como meta 
+principal, tu objetivo realmente es conseguir un buen flujo de bugs semanal, mensual o anual. 
+No estar pendiente del triaje o de que los pagos lleguen. Pasa de ese asunto y tú sigue 
+buscando y buscando. Centráte sólo en perforar y perforar el objetivo, no en si te pagan más 
+o menos por cualquier bug. 
+
+Conforme vayas ganando, no gastes a lo loco, de hecho yo te recomendaría que vivas con lo 
+imprescindible, pero eso ya es cuestión de cada uno, si tienes muchos gastos súmalos al plan. 
+Vive donde sea barato, lo siento por los de las grandes ciudades, pero es así. Al principio es 
+mejor vivir donde es barato y si luego quieres volver a tu ciudad, de nuevo súmalo a los gastos 
+anteriores. Si es en un país barato en general, mejor. No olvides incluir los impuestos 
+correspondientes en tu plan.
+
+
+        /                 
+*//////{<>==========================[       BREAKS      ]====================================->>
+        \
+
+
+
+Cultiva tu cuerpo, mente y espíritu, haz deporte, desconecta. Centrarse mucho en algo no es 
+bueno, la mente funciona mejor si cambias de tarea de vez en cuando. Muchas veces, infinitas 
+diría, me he encontrado haciendo un exploit o intentando hacer un POC para algo pero no era 
+capaz, estaba atascado, sin dormir, ni comer, cansado, antes de que llegue ese punto... déjalo, 
+descansa, desconecta. A mí personalmente, me gusta viajar de vez en cuando o cambiar de aires, 
+hazlo. Caminar, jugar al fútbol, la bicicleta, unas cervezas con los amigos o amigas, lo que 
+sea. Piensa que tu tiempo libre es tan importante como el trabajo duro. Mentalízate de esto.
+
+
+
+        /                 
+*//////{<>==========================[        C0NS       ]====================================->>
+        \
+
+
+
+Respecto a ir de CONs, mi consejo es que no desperdicies el tiempo, ve a las que puedas de 
+ámbito nacional, que te pillen cerca o no te suponga mucho gasto si es que te apetece. Ir a 
+las internacionales para nosotros que somos freelancers es caro (sólo la entrada) [65], además 
+la mayoría del material se va a publicar tarde o temprano, si no lo hacen las propias CONs lo 
+harán los ponentes. Piensa que a la mayoría de los que van, se las paga su empresa o van como 
+ponentes (gratis). No merece la pena perder el tiempo asistiendo en persona, ya tendrás tiempo 
+cuando tengas la capacidad de hacerlo. Y respecto a ir como ponente, te diría que lo tengas en 
+mente pero tampoco te obsesiones con ello, debes saber que quien va es para exponer algo 
+novedoso, una investigación desconocida, quizás alguna cadena de exploits en un objetivo de 
+alto impacto, nuevas clases de bugs (hablando de lo mejor a nivel internacional). Y esto no te 
+conviene, vas a dedicar mucho tiempo que puedes aprovechar en el bug hunting y revelar algo 
+provechoso, solamente por unos aplausos y unas palmadas en la espalda. Con el tiempo para lo 
+único que te podía realmente interesar es para conseguir clientes para "ventas privadas", poco 
+más. Pero el que quiera hacerlo, para gusto colores.
+
+
+[65] https://twitter.com/wdormann/status/1665440138359390208
+
+
+
+        /                 
+*//////{<>==========================[    HACK'EM IT!    ]====================================->>
+        \
+
+
+
+Todo lo que cuento en esta e-zine está basado en mi experiencia personal y opiniones 
+intercambiadas con otros bug hunters. De hecho, casualmente algunas cosas se han contado 
+recientemente en Offensive CON [66][67][68]. 
+
+Empezar en esto sin amigos en el sector, sólo, sin estudios al respecto y viniendo de una 
+familia y un lugar humilde, es díficil pero no imposible. Si crees que va a ser muy difícil 
+el camino, trabaja para una empresa que se dedique a esto o algo parecido, o al menos que te 
+permita hacerlo por tu cuenta. Si no puedes por lo que sea, hazlo en tu tiempo libre. Y cuando 
+llegue el momento, pasa al full-time. Recuerda que vas a tener que trabajar duro, así que mejor 
+que vayas empezando. Vas a tener que acostumbrarte a ello.
+
+Sé que para muchos no será nada nuevo, lo sé. Esta e-zine está hecha desde el corazón pero con 
+cabeza. No pretendo convencer a nadie de nada. Ni busco el acuerdo o el desacuerdo de nadie 
+tampoco. Sencillamente es una forma de devolver todo ese conocimiento obtenido del underground, 
+de las ezines, de las revistas phrack, etc. Que me ha hecho y me hizo crecer en esto. Personas 
+que daban su conocimiento a cambio de nada. También es cierto que, tal y como aparece en un 
+misterioso pastebin publicado en 2019 [69] que casualmente encontré mientras leía ezines y 
+buscaba sobre grupos de hackers como Ac1dB1tch3z, el underground está total o casi muerto. Es 
+una pena que los más jóvenes nunca lleguen a conocer qué era esto.
+
+También comentar que este documento estará sujeto a revisión y a cambios. Puede que añada 
+cosas o que las cambie.
+
+Como última reflexión, piensa que si alguien como yo con el 99% de los condicionantes 
+expuestos anteriormente ha podido conseguirlo, ¿Por qué tú no? No dejes que nadie te mine la 
+autoestima, ¡Lucha por tus sueños! ¿A caso no crees que yo he tenido, a lo mejor el rechazo no, 
+pero sí el escepticismo de las personas que me rodean, e incluso de las que más quiero y 
+aprecio? Por supuesto, y al igual que yo muchos. Analiza todas las críticas, aunque sean 
+maleducadas o irrespetuosas, quizás haya un fondo de verdad en esas palabras. Y recuerda que 
+no hay un sólo camino, puede haber muchos. ¡Elige el tuyo! Pero sobre todo, ¡Disfruta con lo 
+hagas! 
+
+Estilo de índice y cabeceras [70]. 
+ASCII art [71][72].
+
+
+[66] https://www.offensivecon.org/
+[67] https://twitter.com/hardik05/status/1665401289679699977
+[68] https://www.youtube.com/watch?v=hz9HiM2eKFY
+[69] https://pastebin.com/ntg2eUm9
+[70] https://www.exploit-db.com/exploits/42803
+[71] https://www.asciiart.eu/computers/bug
+[72] https://ascii.co.uk/art/fishing
+
+
+
+		                         ,=.
+		                       .'  `\\ ()
+		                     .'      \+/>
+		                   .'         \@|
+		                 .'            /|
+		             .-.'-.           _\_\
+		             '""""'
+
+               Give a man a fish, and you feed him for a day; 
+               teach a man to fish, and you feed him for life
+
+
